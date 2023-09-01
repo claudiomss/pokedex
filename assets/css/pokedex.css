@@ -183,6 +183,7 @@ ol {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #e6f1fa;
+  padding-left: 0;
 }
 
 #pokemonDetails img {
@@ -223,6 +224,7 @@ ol {
 }
 
 #pokemonDetails .container {
+  
   display: flex;
   flex-direction: column;
   margin: 2rem 0;
@@ -234,6 +236,7 @@ ol {
 }
 
 #pokemonDetails .containerStatus {
+
   border-radius: 30px;
   padding: 3rem 0;
   background-color: #f8f8f8;
@@ -276,4 +279,14 @@ progress {
 ::-ms-fill {
   background-color: rgb(221, 221, 221);
   border-radius: 999px;
+}
+
+@media screen and (max-width: 600px) {
+  #pokemonDetails {
+    font-size: 0.7rem;
+  }
+
+  #pokemonDetails li {
+    padding: 0.1rem 1rem;
+  }
 }
