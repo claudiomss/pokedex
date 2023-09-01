@@ -1,0 +1,279 @@
+.pokemons {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.normal {
+  background-color: #a6a877;
+}
+
+.grass {
+  background-color: #77c850;
+}
+
+.fire {
+  background-color: #ee7f30;
+}
+
+.water {
+  background-color: #678fee;
+}
+
+.electric {
+  background-color: #f7cf2e;
+}
+
+.ice {
+  background-color: #98d5d7;
+}
+
+.ground {
+  background-color: #dfbf69;
+}
+
+.flying {
+  background-color: #a98ff0;
+}
+
+.poison {
+  background-color: #a040a0;
+}
+
+.fighting {
+  background-color: #bf3029;
+}
+
+.psychic {
+  background-color: #f65687;
+}
+
+.dark {
+  background-color: #725847;
+}
+
+.rock {
+  background-color: #b8a137;
+}
+
+.bug {
+  background-color: #a8b720;
+}
+
+.ghost {
+  background-color: #6e5896;
+}
+
+.steel {
+  background-color: #b9b7cf;
+}
+
+.dragon {
+  background-color: #6f38f6;
+}
+
+.fairy {
+  background-color: #f9aec7;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.pokemon .number {
+  color: #000;
+  opacity: 0.3;
+  text-align: right;
+  font-size: 0.625rem;
+}
+
+.pokemon .name {
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.pokemon .detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemon .detail .types {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pokemon .detail .types .type {
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0;
+  font-size: 0.625rem;
+  border-radius: 1rem;
+  filter: brightness(1.1);
+  text-align: center;
+}
+
+.pokemon .detail img {
+  max-width: 100%;
+  height: 70px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button {
+  padding: 0.8rem;
+  margin: 0.25rem 0;
+  font-size: 0.7rem;
+  color: #fff;
+  background-color: #6c79db;
+  border: none;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 380px) {
+  .pokemons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .pokemons {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pokemons {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* ---------------- Contribuição ------------------------ */
+
+ol {
+  list-style: none;
+}
+
+.details h1 {
+  text-align: center;
+}
+
+#pokemonDetails {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100vw;
+  gap: 0rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e6f1fa;
+}
+
+#pokemonDetails img {
+  height: 150px;
+  display: flex;
+  margin: 0 auto;
+  transform: translateY(30px);
+}
+
+#pokemonDetails .title {
+  display: flex;
+  padding: 2rem 2rem 0.5rem 2rem;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+
+#pokemonDetails .types {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  padding: 0rem 2rem;
+}
+
+#pokemonDetails .skills span {
+  text-transform: capitalize;
+}
+
+#pokemonDetails .type {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  padding: 0rem 1rem;
+  border-radius: 999px;
+  filter: brightness(1.2);
+}
+
+#pokemonDetails .container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  border-radius: 50px;
+}
+
+#pokemonDetails li {
+  padding: 0.1rem 3rem;
+}
+
+#pokemonDetails .containerStatus {
+  border-radius: 30px;
+  padding: 3rem 0;
+  background-color: #f8f8f8;
+}
+
+#pokemonDetails .status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+progress {
+  /* Altera a cor do background no Firefox e navegadores da Microsoft */
+  /* background: yellow; */
+
+  /* É necessário alterar o valor para none */
+  -webkit-appearance: none;
+}
+
+/* Altera a cor de fundo em navegadores com webkit (Chrome, Safari etc) */
+
+::-webkit-progress-value {
+  background-color: rgb(77, 159, 226);
+  border-radius: 999px;
+}
+
+/* Altera a cor da barra em navegadores com webkit (Chrome, Safari etc) */
+::-webkit-progress-bar {
+  background-color: rgb(221, 221, 221);
+  border-radius: 999px;
+}
+
+/* Altera a cor da barra em navegadores com moz (Firefox) */
+::-moz-progress-bar {
+  background-color: rgb(77, 159, 226);
+  border-radius: 999px;
+}
+
+/* Altera a cor da barra em navegadores da Microsoft (IE e Edge) */
+::-ms-fill {
+  background-color: rgb(221, 221, 221);
+  border-radius: 999px;
+}
