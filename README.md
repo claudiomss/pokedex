@@ -84,6 +84,8 @@ Foi criado um classe da *Pokemon* para organização dos dados.
 | -------- |-------- |-------- |-------- |-------- |-------- |-------- |-------- |-------- |-------- |
 ||70|69|Overgrow - Chlorophyll|45|49|49|65|65|45
 
+
+---
 <a id="7-Linguagens,-dependencias-e-libs-utilizadas"></a>
 ##  :wrench:Linguagens, dependencias e libs utilizadas
 
