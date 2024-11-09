@@ -24,13 +24,13 @@
 <a id="1-Descrição-do-projeto"></a>
 ##  :memo: Descrição do projeto 
 
-O projeto **Pokedex** foi baseado nesse [Repositório](https://github.com/digitalinnovationone/js-developer-pokedex) sendo o intuito consumir a [PokeAPI](https://pokeapi.co/) para listagem dos dados.
+O projeto Pokedex utiliza a PokeAPI para exibir uma lista de pokémons em uma interface interativa, sendo desenvolvido a partir de um repositório específico que serve como base. O principal objetivo é integrar a API, permitindo que o usuário visualize uma lista crescente de pokémons à medida que interage com o sistema.
 
 ---
 <a id="2-Funcionalidades"></a>
 ##  :books: Funcionalidades
 
-:heavy_check_mark: **Listagem**: o usuário ao clicar em *Load More*, será feita uma requisição a API e acrescentar os dados a listagem atual.
+:heavy_check_mark: **Listagem Incremental**: Ao clicar em "Load More", o usuário solicita dados adicionais da PokeAPI, e os novos pokémons são exibidos em conjunto com os já carregados anteriormente. 
 
 ---
 <a id="3-Deploy-da-Aplicação"></a>
